@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+    background-color: #383D58;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.cabeçalho-imagem {
+    width: 15%; /* Alteração na largura da imagem */
+}
+
+.cabeçalho-lista {
+    list-style: none;
+    display: flex;
+}
+
+.cabeçalho-lista-item {
+    display: inline-block;
+    padding: 10px; /* Reduzindo o espaçamento */
+    color: #FFD700; /* Mudando a cor da letra para amarelo */
+}
+
+.escola {
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-titulo {
+    padding: 24px;
+    text-align: center;
+    color: #FFD700; /* Mudando a cor da letra para amarelo */
+}
+
+.escola-texto-um,
+.escola-texto-dois {
+    color: #fff; /* Mudando a cor da letra para branco */
+}
+.rodape {
+    background: linear-gradient(to bottom, #4EBFE9, #4281A4); /* Degradê azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape-foto {
+    width: 80px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para uma borda circular */
+}
+
+.rodape-texto {
+    max-width: 60%; /* Ajuste conforme necessário */
+    font-size: 14px;
+}
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #4EBFE9, #4281A4);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape-foto {
+    width: 80px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para uma borda circular */
+}
+
+.rodape-texto {
+    max-width: 60%; /* Ajuste conforme necessário */
+    font-size: 14px;
+}
+
+/* Adicione estas regras CSS ao seu arquivo style.css */
+
+.cabeçalho-imagem,
+.escola-imagem,
+.estudante-imagem,
+.estudante-icone,
+.rodape-foto {
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+}
+
+.estudante-conteudo-div {
+    text-align: center;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Remova a seguinte linha se quiser manter o espaçamento em torno da imagem no rodapé */
+.rodape-foto {
+    margin-bottom: 10px;
+}
+
+
